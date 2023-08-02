@@ -1,0 +1,28 @@
+#scroller img{
+    height: 400px;
+  }
+  .col-md-3 img{
+    width: 100px;
+    height: 200px;
+  }
+  #top{
+    display: flex;
+    justify-content: space-between;
+  }
+  img{
+    cursor: pointer;
+  }
+  .col-md-3{
+    display: flex;
+    flex-direction: column;
+  }
+  .col-md-3{
+    text-align: center;
+    align-items: center;
+  }
+  .col-md-3 button{
+    width: 100%;
+  }
+  .col-md-3:hover{
+    transform: scale(0.9);
+  }

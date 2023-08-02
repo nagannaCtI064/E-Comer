@@ -1,0 +1,125 @@
+*{
+  font-family: sans-serif;
+}
+article{
+  padding: 20px;
+  text-align: center;
+}
+article img{
+  width: 300px;
+  height: 300px;
+  
+}
+/* .flexx p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+} */
+.col-md-3{
+border: 1px solid red;
+border-radius: 10px;
+box-shadow: 5px 5px gray;
+
+}
+.flexx{
+  display: flex;
+  justify-content: space-between;
+}
+#submit{
+  margin-top: 5px;
+  
+  margin-left: 180px;
+}
+footer{
+  color: white;
+}
+#social-media{
+  margin-top: 30px;
+}
+#social-media  i{
+  margin-top: 10px;
+}
+#social-media #twitter{
+border: 2px solid;
+border-radius: 7px;
+display: flex;
+justify-content: space-between;
+}
+#social-media #facebook{
+  border: 2px solid;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  }
+  #social-media #instagram{
+    border: 2px solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#social-media a{
+  text-decoration: none;
+  color: white;
+  margin-top: 7px;
+  margin-right: 40px;
+}
+#subscribe{
+  margin-top: 60px;
+  text-align: center;
+}
+#address{
+  margin-top: 60px;
+  text-align: center;
+}
+#address p{
+  color: gray;
+}
+
+#logo{
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#cart{
+  font-size: 2rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+span{
+  cursor: pointer;
+}
+.form1{
+  background-color: antiquewhite;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  
+}
+.form2{
+  border: 2px solid black;
+  background-color: rgb(43, 165, 161);
+  box-shadow: 5px 7px rgb(27, 51, 117);
+  padding: 100px;
+}
+.form-input{
+ height: 40px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.form-button1{
+  height: 40px;
+  margin-top: 7px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.register-account{
+  text-decoration: none;
+}
+
